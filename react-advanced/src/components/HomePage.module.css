@@ -1,0 +1,32 @@
+
+.navbar{
+    display: flex;
+    justify-content: left;
+    gap:1rem;
+    background-color: royalblue;
+    padding:0 10px;
+    width:100%;
+    align-items: center;
+}
+
+.mainHeading{
+    font-size:35px;
+    cursor:pointer;
+    text-transform: capitalize;
+}
+.button{
+    padding:10px 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: yellow;
+    transition:all 1s ease;
+    color:grey;
+    font-size:20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: yellowgreen;
+    color:white;
+
+}
